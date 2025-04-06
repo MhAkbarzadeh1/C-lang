@@ -10,3 +10,11 @@ int main() {
     printf("res of (getchar() != EOF): %d\n", c);
 
 }
+/* #include <stdio.h>
+main()
+{
+  int c;
+  c = getchar() != EOF;
+    printf("res= %d", c);
+}
+*/
