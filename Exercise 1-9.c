@@ -7,7 +7,7 @@ main()
 
     while ((c = getchar()) != EOF) {
         if (c == ' ') {
-            if (!space) {
+            if (space == 0) {
                 putchar(c);
                 space = 1;
             }
