@@ -14,7 +14,7 @@ main()
             ++newline;
     }
 
-    printf("تعداد فاصله‌ها: %d\n", blanks);
-    printf("تعداد تب‌ها: %d\n", tabs);
-    printf("تعداد خطوط جدید: %d\n", newline);
+    printf("blanks: %d\n", blanks);
+    printf("tabs: %d\n", tabs);
+    printf("newline: %d\n", newline);
 }
