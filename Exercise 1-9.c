@@ -9,7 +9,7 @@ main()
         if (c == ' ') {
             if (space == 0) {
                 putchar(c);
-                space = 1;
+                ++space;
             }
         }
         else {
