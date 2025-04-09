@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define cha 128
 
-int main(void) {
+main(void) {
     int c, i;
     int _char[cha];
 
@@ -22,5 +22,4 @@ int main(void) {
         }
     }
 
-    return 0;
 }
