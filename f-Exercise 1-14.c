@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define cha 128
 
-main(void) {
+main() {
     int c, i;
     int _char[cha];
 
@@ -21,5 +21,4 @@ main(void) {
             printf("%c: %.*s\n", i, _char[i], stars);
         }
     }
-
 }
