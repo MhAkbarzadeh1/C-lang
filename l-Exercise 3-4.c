@@ -33,16 +33,16 @@ void itoa(int n, char s[]) {
 }
 
 int main() {
-    char buffer[100];
+    char size[100];
 
-    itoa(1234, buffer);
-    printf("itoa(1234) = %s\n", buffer);
+    itoa(1234, size);
+    printf("itoa(1234) = %s\n", size);
 
-    itoa(0, buffer);
-    printf("itoa(0) = %s\n", buffer);
+    itoa(0, size);
+    printf("itoa(0) = %s\n", size);
 
-    itoa(-1234, buffer);
-    printf("itoa(-1234) = %s\n", buffer);
+    itoa(-1234, size);
+    printf("itoa(-1234) = %s\n", size);
 
 
     return 0;
